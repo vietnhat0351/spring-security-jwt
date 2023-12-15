@@ -52,5 +52,7 @@ Open Postman
   }
   * Expected response: {"token":"token"}
 * Authorization
-    * Only user has role ADMIN can access: localhost:8080/api/v1/products/all
-    * Only user has role USER can access: localhost:8080/api/v1/products?id=**
+
+  Add bearer token
+    * Only user has role ADMIN can access: (GET) localhost:8080/api/v1/products/all
+    * Only user has role USER can access:(GET) localhost:8080/api/v1/products?id=**
